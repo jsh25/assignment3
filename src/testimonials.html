@@ -1,0 +1,323 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>BWM290 - Assignment 3</title>
+
+        <!-- MUST BE IN THIS ORDER -->
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        
+        <!--NAVIGATION-->
+        <div class="row">
+            <div class="col-lg-12">
+
+              <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+                <div class="container">
+                  <a class="navbar-brand js-scroll-trigger" href="index.html">Assignment 3</a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                      <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="index.html">Home</a>
+                      </li>
+          
+                        <!--DROPDOWN-->
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
+                          <div class="dropdown-menu">
+                              <a class="dropdown-item active_links" href="overview.html">Overview</a>
+                              <a class="dropdown-item active_links" href="skills.html">Skills</a>
+                          </div>
+                          </li>
+          
+                      <li class="nav-item active">
+                        <a class="nav-link js-scroll-trigger" href="testimonials.html">Testimonials</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="contact.html">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>                    
+                          
+            </div>
+        </div>
+    
+
+
+
+
+
+        <!-- MAIN -->
+
+
+        <section id="login" class="top_space">
+
+        </section>
+
+
+
+        <div class="container">
+        <div class="accordion" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h5 class="mb-0">
+                  <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Testimonial #1
+                  </button>
+                </h5>
+              </div>
+          
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                      Testimonial #2
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h5 class="mb-0">
+                  <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                      Testimonial #3
+                  </button>
+                </h5>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                  Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+         <div class="container text-center pt-5">
+           <div class="row">
+             <div class="col">
+               <!--BUTTON TO TRIGGER LOGIN MODAL-->
+              <button type="button" id="button" class="btn btn-primary" data-toggle="modal" data-target="#loginModal">Login</button>
+
+               <!--BUTTON TO TRIGGER REGISTER MODAL-->
+              <button type="button" id="button" class="btn btn-primary" data-toggle="modal" data-target="#registerModal">Register</button>
+             </div>
+           </div>
+         </div>
+
+
+
+
+          <div class="container py-5">
+
+              <form class="needs-validation py-5" novalidate>
+                  <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                      <label for="validationTooltip01">First name</label>
+                      <input type="text" class="form-control" id="validationTooltip01" placeholder="First name" required>
+                      <div class="invalid-tooltip">
+                        Please enter your first name.
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <label for="validationTooltip02">Last name</label>
+                      <input type="text" class="form-control" id="validationTooltip02" placeholder="Last name" required>
+                      <div class="invalid-tooltip">
+                        Please enter your last name.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                      <label for="validationTooltip03">Brand/Company</label>
+                      <input type="text" class="form-control" id="validationTooltip03" placeholder="Brand/Company" required>
+                      <div class="invalid-tooltip">
+                        Please provide a valid input.
+                      </div>
+                    </div>
+                    <div class="col-md-6 mb-3">
+                      <label for="validationTooltip03">Title</label>
+                      <input type="text" class="form-control" id="validationTooltip03" placeholder="Title" required>
+                      <div class="invalid-tooltip">
+                        Please provide a valid title.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="form-row">
+                      <div class="col-md-12 mb-3">
+                        <label for="validationTooltip06">Testimonial</label>
+                        <textarea class="form-control" rows="3" id="validationTooltip06" placeholder="Testimonial" required></textarea>
+                        <div class="invalid-tooltip">
+                          Please enter your message.
+                        </div>
+                      </div>
+                    </div>
+                  <div class="row">
+                    <div class="col-md-12 mb-3">
+                      <button id="button" class="btn btn-primary col-md-12 mb-3" type="submit">Submit</button>
+                    </div>
+                  </div>
+                </form>
+          
+                </div>
+
+
+
+
+
+
+
+        
+
+
+
+
+        <!--FOOTER-->
+      <footer class="main-footer text-center p-4 bg-dark text-white">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <p> &copy; Jeremy Hackett <span id="year"></span> </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+
+
+
+
+
+
+
+
+
+
+      <!--LOGIN MODAL-->
+    <div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title" id="loginModalLabel">Login</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+              </div>
+              <div class="modal-body">
+
+              <!--LOGIN FORM-->
+              <form name="registerForm" id="registerForm" formenctype="value" method="post" action="includes/register.php" novalidate>
+                      <div class="form-group">
+                          <label for="loginUsername">Username</label>
+                          <input type="text" class="form-control" id="loginUsername" aria-describedby="usernameHelp" placeholder="Enter Username">
+                      </div>
+                      <div class="form-group">
+                          <label for="loginPassword">Password</label>
+                          <input type="password" class="form-control" id="loginPassword" placeholder="Enter Password">
+                      </div>
+                      
+
+              </div>
+              <div class="modal-footer">
+                  <button type="submit" id="button" class="btn btn-primary">Login</button>
+                  </form><!--END FORM-->
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!--REGISTER MODAL-->
+  <div class="modal fade" id="registerModal" tabindex="-1" role="dialog" aria-labelledby="registerModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h5 class="modal-title" id="registerModalLabel">Register</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                  </button>
+              </div>
+              <div class="modal-body">
+
+                  <!--REGISTER FORM-->
+                  <form name="registerForm" id="registerForm" formenctype="value" method="post" action="includes/register.php" novalidate>
+                      <div class="form-group">
+                          <label for="registerUsername">Username</label>
+                          <input type="text" class="form-control" id="registerUsername" aria-describedby="usernameHelp" placeholder="Enter Username">
+                          <small id="usernameHelp" class="form-text text-muted">Must be atleast 8 characters.</small>
+                      </div>
+                      <div class="form-group">
+                          <label for="registerPassword">Password</label>
+                          <input type="password" class="form-control" id="registerPassword" placeholder="Enter Password">
+                      </div>
+                      <div class="form-group">
+                          <label for="cofirmPassword">Confirm Password</label>
+                          <input type="password" class="form-control" id="confirmPassword" placeholder="Confirm Password">
+                      </div>
+                      <div class="form-group">
+                          <label for="email">Email</label>
+                          <input type="text" class="form-control" id="email" aria-describedby="emailHelp" placeholder="Enter Email">
+                          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone.</small>
+                      </div>
+                      
+
+              </div>
+              <div class="modal-footer">
+                  <button type="submit" id="button" class="btn btn-primary">Submit</button>
+                  </form><!--END FORM-->
+              </div>
+          </div>
+      </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        <!-- MUST BE IN THIS ORDER -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script>
+      //GET CURRENT YEAR FOR COPYRIGHT
+      $('#year').text(new Date().getFullYear());
+    </script>
+
+    </body>
+</html>

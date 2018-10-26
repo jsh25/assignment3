@@ -1,0 +1,66 @@
+// *{overflow-x:hidden}
+
+#main-section{
+    position:relative;
+    min-height: 900px;
+    background: url(../img/computer.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align:center;
+    color:#fff;
+  }
+
+
+  // #prefooter{
+  //   position:relative;
+  //   min-height: 250px;
+  //   background: url(../img/get-in-touch.png);
+  //   background-size: 20%;
+  //   background-position: 50%;
+  //   background-repeat: no-repeat;
+  //   text-align:center;
+  //   color:white;
+  // }
+
+
+  .link_style{
+    text-decoration: none;
+    color:rgb(4, 56, 105);
+  }
+
+  .link_style:hover{
+    text-decoration: none;
+    color:#555;
+  }
+
+  .top_space{
+    padding-top:150px;
+  }
+
+  #button{
+    background: rgb(4, 56, 105);
+    border: 2px solid rgb(4, 56, 105);
+  }
+
+  #button:hover{
+    background: #fff;
+    border: 2px solid rgb(4, 56, 105);
+    color:#000;
+  }
+
+  #button2{
+    background: #fff;
+    border: 2px solid rgb(4, 56, 105);
+    color: rgb(4, 56, 105);
+  }
+
+  #button2:hover{
+    background: rgb(4, 56, 105);
+    border: 2px solid rgb(4, 56, 105);
+    color: #fff;
+  }
+
+  .active_links:active{
+    background: rgb(4, 56, 105);
+    color: #fff;
+  }

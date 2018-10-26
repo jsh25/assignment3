@@ -1,0 +1,169 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>BWM290 - Assignment 3</title>
+
+        <!-- MUST BE IN THIS ORDER -->
+        <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+    </head>
+    <body>
+        
+        <!--NAVIGATION-->
+        <div class="row">
+            <div class="col-lg-12">
+
+              <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+                <div class="container">
+                  <a class="navbar-brand js-scroll-trigger" href="index.html">Assignment 3</a>
+                  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ml-auto">
+                      <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="index.html">Home</a>
+                      </li>
+          
+                        <!--DROPDOWN-->
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">About</a>
+                          <div class="dropdown-menu">
+                              <a class="dropdown-item active_links" href="overview.html">Overview</a>
+                              <a class="dropdown-item active_links" href="skills.html">Skills</a>
+                          </div>
+                          </li>
+          
+                      <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="testimonials.html">Testimonials</a>
+                      </li>
+                      <li class="nav-item active">
+                        <a class="nav-link js-scroll-trigger" href="contact.html">Contact</a>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </nav>                    
+                          
+            </div>
+        </div>
+
+
+
+
+
+        <!-- MAIN -->
+        <section id="top_text" class="top_space">
+          <div class="container text-center">
+            <div class="row">
+              <div class="col-12">
+                <h1>Lorem Ipsum Dolor.</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus eum sed vitae atque quis! Amet odit, eius necessitatibus minus esse vero temporibus voluptatibus, dolorem repellat perspiciatis tenetur distinctio, qui dicta.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+
+
+
+
+
+
+        <div class="container top_space">
+
+        <form class="needs-validation" novalidate>
+            <div class="form-row">
+              <div class="col-md-6 mb-3">
+                <label for="validationTooltip01">First name</label>
+                <input type="text" class="form-control" id="validationTooltip01" placeholder="First name" required>
+                <div class="invalid-tooltip">
+                  Please enter your first name.
+                </div>
+              </div>
+              <div class="col-md-6 mb-3">
+                <label for="validationTooltip02">Last name</label>
+                <input type="text" class="form-control" id="validationTooltip02" placeholder="Last name" required>
+                <div class="invalid-tooltip">
+                  Please enter your last name.
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col-md-6 mb-3">
+                <label for="validationTooltip03">City</label>
+                <input type="text" class="form-control" id="validationTooltip03" placeholder="City" required>
+                <div class="invalid-tooltip">
+                  Please provide a valid city.
+                </div>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="validationTooltip04">State</label>
+                <input type="text" class="form-control" id="validationTooltip04" placeholder="State" required>
+                <div class="invalid-tooltip">
+                  Please provide a valid state.
+                </div>
+              </div>
+              <div class="col-md-3 mb-3">
+                <label for="validationTooltip05">Zip</label>
+                <input type="text" class="form-control" id="validationTooltip05" placeholder="Zip" required>
+                <div class="invalid-tooltip">
+                  Please provide a valid zip.
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+                <div class="col-md-12 mb-3">
+                  <label for="validationTooltip06">Message</label>
+                  <textarea class="form-control" rows="3" id="validationTooltip06" placeholder="Message" required></textarea>
+                  <div class="invalid-tooltip">
+                    Please enter your message.
+                  </div>
+                </div>
+              </div>
+            <div class="row">
+              <div class="col-md-12 mb-3">
+                <button id="button" class="btn btn-primary col-md-12 mb-3" type="submit" data-toggle="tooltip" data-placement="top" title="I'll get back to you ASAP">Send</button>
+              </div>
+            </div>
+          </form>
+    
+          </div>
+        
+
+
+
+
+        <!--FOOTER-->
+      <footer class="main-footer text-center p-4 bg-dark text-white">
+        <div class="container">
+          <div class="row">
+            <div class="col">
+              <p> &copy; Jeremy Hackett <span id="year"></span> </p>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+
+        <!-- MUST BE IN THIS ORDER -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <script>
+      //GET CURRENT YEAR FOR COPYRIGHT
+      $('#year').text(new Date().getFullYear());
+
+
+      //TOOLTIPS
+      $(function () {
+        $('[data-toggle="tooltip"]').tooltip()
+      })
+    </script>
+
+    </body>
+</html>
